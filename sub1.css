@@ -1,0 +1,11 @@
+.today h2{font-size: 36px;margin-bottom: 70px;}
+.menu-top{margin-top: 30px;color: #202020;margin-bottom: 50px;}
+.menu-top>li{float: left;margin-right: 25px;}
+.menu>li{float: left;margin-left: 35px;width: 300px;margin-right: 177px;box-sizing: border-box;margin-bottom: 62px;}
+
+.menu>li:nth-child(3n){margin-right: 0;}
+.menu-list li:nth-child(2){font-size: 24px;}
+.list:nth-child(3)>li{font-size: 16px;}
+.list li{overflow: hidden;}
+.list li img{transition: all 0.5s;}
+.list li:hover img{transform: scale(1.2);}

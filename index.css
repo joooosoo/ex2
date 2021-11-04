@@ -1,0 +1,40 @@
+.today-top{float: right;height: 90px;line-height: 90px;}
+.today-top li{float: left;padding-left: 15px;}
+.today-top li:nth-child(2){color: #757575;}
+.today-top li:nth-child(3){color: #757575;}
+
+.today-box{width: 1440px;height: 1146px;padding-top: 170px;}
+
+.today-txt{float: left;}
+.today-txt h3{font-size: 36px;}
+.today-txt p{font-size: 28px;color: #606060;}
+
+.today-img{float: right; width: 1044px;}
+.today-img li{float: left; padding-left: 15px;padding-bottom: 15px;}
+
+/* time영역 */
+.time{padding-top: 45px;padding-bottom: 50px;background: #000;}
+.time-txt{float: left; width: 356px; color: #fff;}
+.time-txt h3{font-size: 36px;}
+.time-txt p{font-size: 28px;}
+
+.time-img{float: left;}
+.time-img li{float: left;padding-right: 20px; color: #fff;}
+.time-img li:last-child{padding-right: 0;}
+
+/* 패션영역 */
+.foryou h3{font-size: 36px;text-align: center;padding: 35px;}
+.foryou .dep1{float: left;padding: 10px; padding-left: 50px; width: 310px;box-sizing: border-box;}
+
+.foryou .dep2 li{margin-bottom: 8px;text-align: left;}
+.foryou .dep2 li:nth-child(2){font-size: 24px;}
+.foryou .dep2 li:last-child{font-size: 28px;}
+
+/* 신상품영역 */
+.new{margin-bottom: 150px;}
+.new h3{font-size: 36px;text-align: center;padding: 35px;}
+.new .dep1{float: left; padding-left: 15px; text-align: left;box-sizing: border-box;}
+.new .dep2 li{margin-bottom: 8px;}
+.new .dep2 li:nth-child(1){font-size: 24px;}
+.new .dep2 li:nth-child(2){font-size: 17px;color: #545454;}
+.new .dep2 li:nth-child(3){font-size: 14px;}

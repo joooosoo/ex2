@@ -1,0 +1,44 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto Sans KR:wght@400;500;700&display=swap');
+
+body{font-family:'Noto Sans KR';}
+.wrapper{width: 100%;min-width: 1400px; }
+.header-top{background: #000; height: 200px;}
+.inner{width: 1400px;margin: auto; position: relative;}
+.top-menu{float: right; color: #fff; padding-top: 8px;}
+.top-menu li{float: left; margin-left: 20px;}
+.top-menu li:hover{text-decoration: underline;color: #606060;}
+.top-right{position: absolute;right: 50px;top: 50%;transform: translateY(-50%);border-bottom: 1px solid #fff;}
+.top-right input[type="text"]{border:none;outline: none;background:none;color:#fff;padding-bottom: 10px;}
+.top-right button{background: url(../img/see.png) no-repeat center center;width: 20px;height: 22px; border: none;outline: none; font-size: 0;}
+
+.header-bottom{background: #242424;}
+.header-bottom .gnb{margin: 0 auto;width: 1400px;background: #242424;color: #fff;}
+.header-bottom .gnb .dep1{float: left; text-align: center;width: 280px;font-size: 30px;height: 50px;line-height: 50px;position: relative;}
+.header-bottom .gnb a{display: block;}
+.header-bottom .dep2{font-size: 17px;line-height: 30px;display: none;position: absolute;left: 0;top: 50px;z-index: 1000;background: #242424;text-align: center;width: 280px; height:210px; opacity: 0.7;}
+.header-bottom .dep2 .sub{color: #f00;}
+.header-bottom .dep2 li:hover{color: #f00;}
+.header-bottom .dep2.on{display: block;}
+
+.main-slider{width: 100%;height: 500px;overflow: hidden;}
+
+
+
+
+
+
+footer{width: 100%;margin: 0 auto;background: #000; position: relative;margin-top: 150px;}
+footer .inner{width: 1400px; margin: 0 auto;}
+.footer-top{text-align: center; color: #fff;padding: 20px;padding-top: 15px;border-bottom: 1px solid #606060;margin-bottom: 20px;}
+.footer-top a{display: inline-block;height: 50px;line-height: 50px;margin: 0 13px;}
+.footer-txt{color: #fff; position: relative;height: 250px;padding-top: 10px;}
+.footer-txt ul li{float: left;width: 500px;margin-bottom: 20px;}
+.footer-txt ul li a{display: inline-block; margin-bottom: 30px;}
+.footer-txt ul li:nth-child(1){margin-right: 110px;}
+.footer-txt>div{position: relative;} 
+.footer-txt>div.icon{position: absolute;right: 50px;top:0}
+.footer-txt>div.icon a{display:inline-block;width: 50px;vertical-align: middle;}
+.footer-txt>div.icon a:first-child{width: 30px;}
+.footer-txt address{margin-top: 30px; text-align: center;margin-bottom: 30px;}
+
